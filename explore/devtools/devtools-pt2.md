@@ -1,0 +1,2 @@
+1) The bug is that the calculateSum function is being passed strings as parameters instead of integers, thus instead of performing addition, it concatanates the two numbers.
+2) I would fix this by converting the variables num1 and num2 into integers, and then passing them into the calculateSum function.
